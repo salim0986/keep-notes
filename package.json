@@ -1,0 +1,31 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env ACCESS_MODE=Development nodemon server.js",
+    "start": "cross-env ACCESS_MODE=Production node server.js"
+  },
+  "engines": {
+    "node": ">=18.18.1 <19.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^4",
+    "mongoose": "^7.6.3",
+    "node": "18.18.1"
+  }
+}
